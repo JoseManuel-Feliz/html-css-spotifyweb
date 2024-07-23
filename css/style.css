@@ -114,14 +114,14 @@ section {
     background-color: #141922;
 }
 
-/* ul */
+/* /* ul 
 
     {
     list-style-type: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
 li {
     flex-basis: 100%;
@@ -233,4 +233,12 @@ h2 {
 
 .card img {
     width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.d-none {
+    display: none;
 }
