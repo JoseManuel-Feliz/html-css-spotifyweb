@@ -23,12 +23,12 @@
 <body>
 
 
-    <div class="row flex">
+    <div class="flex-wrapper">
         <main>
-            <aside id="Menu-Navbar" class="lista p-10 bg-black">
+            <aside id="Menu-Navbar" class="p-10 bg-black">
                 <div id="Primary-Menu-Navbar" class="">
                     <ul>
-                        <li><a href="#"><img src="./img/logo-small.svg" alt=""></a></li>
+                        <li><a href="#"><img class="mb-15" src="./img/logo-small.svg" alt=""></a></li>
                         <li><a href="#"><img src="./img/home.svg" alt=""></a></li>
                         <li><a href="#"></a><img src="./img/search.svg" alt=""></li>
                         <li><a href="#"><img src="./img/libreria.svg" alt=""></a></li>
@@ -37,8 +37,8 @@
                 </div>
                 <div id="Settings-Menu-Navbar" class="">
                     <ul>
-                        <li><a href="#"><img src="./img/download.svg" alt=""></a></li>
-                        <li><a href="#"><img src="./img/profile.svg" alt=""></a></li>
+                        <li class="mb-25"><a href="#"><img class="m-2 mr-4" src="./img/download.svg" alt=""></a></li>
+                        <li><a href="#"><img class="user-img" src="./img/profile.svg" alt=""></a></li>
                     </ul>
                 </div>
             </aside>
@@ -46,89 +46,136 @@
                 <header id="Subscription">
                     <button class="btn" type="button">EFFETTUA L'UPGRADE</button>
                 </header>
-                <nav id="Categories-Navbar">
-                    <ul class="categories">
-                        <li>IN EVIDENZA</li>
-                        <li>PODCAST</li>
-                        <li>CLASSIFICHE</li>
-                        <li>GENERI E MOOD</li>
-                        <li>NUOVE USCITE </li>
-                        <li>SCOPRI</li>
-                    </ul>
-                </nav>
-                <h2>Recently played</h2>
-                <div class="rowr">
-                    <figure class="col">
-                        <img src="./img/metal_lifting.jpg" alt="Metal playlist image cover">
-                        <figcaption>
-                            <h4>Heavy Metal</h4>
-                            <span>Subtitle</span>
-                        </figcaption>
-                    </figure>
-                    <figure class="col">
-                        <img src="./img/stranger.jpeg" alt="Stranger things image cover">
-                        <figcaption>
-                            <h4>Stranger Things, vol.1(a Netflix Original Series Soundtrack)</h4>
-                            <span>Kyle Dixon &
-                                Michael Stein</span>
-                        </figcaption>
-                    </figure>
-                    <figure class="col">
-                        <img src="./img/aquietplace.jpeg" alt="Quiet place image cover">
-                        <figcaption>
-                            <h4>A quiet place</h4><span>Subtitle</span>
-                        </figcaption>
-                    </figure>
-                    <figure class="col">
-                        <img src="./img/split.jpeg" alt="Split image cover">
-                        <figcaption>
-                            <h4>Split</h4><span>Subtitle</span>
-                        </figcaption>
-                    </figure>
-                    <figure class="col">
-                        <img src="./img/cure.jpeg" alt="Cure wellness image cover">
-                        <figcaption>
-                            <h4>A cure wellness</h4><span>Subtitle</span>
-                        </figcaption>
-                    </figure>
-                    <figure class="col">
-                        <img src="./img/sinister.jpeg" alt="Sinister image cover">
-                        <figcaption>
-                            <h4>Sinister</h4><span>Subtitle</span>
-                        </figcaption>
-                    </figure>
-                </div>
-                <h2>Creato per Jonh Doe</h2>
-                <p>Più ascloti, più accurati saranno i suggerimenti.</p>
-                <div class="row-r">
-                    <figure class="col">
-                        <img src="./img/radar.jpeg" alt=" Release radar image cover">
-                        <figcaption>
-                            <h4>Release Radar</h4>
-                        </figcaption>
-                    </figure>
-                    <figure class="col">
-                        <img src="./img/mixdaily.jpeg" alt=" Daily mix image cover">
-                        <figcaption>
-                            <h4>Daily mix 1</h4>
-                        </figcaption>
-                    </figure>
-                </div>
-                <h2>Artisti più popolari</h2>
-                <p>Più ascloti, più accurati saranno i suggerimenti.</p>
-                <div class="row-r">
-                    <figure class="col">
-                        <img class="b-radius" src="./img/youg.jpeg" alt="youg image cover">
-                        <figcaption>
-                            <h4>Lana del Rey</h4>
-                        </figcaption>
-                    </figure>
-                    <figure class="col">
-                        <img class="b-radius" src="./img/einaudi.jpeg" alt="Ludovico Einaudi image">
-                        <figcaption>
-                            <h4>Ludovico Einauidi</h4>
-                        </figcaption>
-                    </figure>
+                <div class="wrapper1">
+                    <nav id="Categories-Navbar">
+                        <ul class="categories">
+                            <li>IN EVIDENZA</li>
+                            <li>PODCAST</li>
+                            <li>CLASSIFICHE</li>
+                            <li>GENERI E MOOD</li>
+                            <li>NUOVE USCITE </li>
+                            <li>SCOPRI</li>
+                        </ul>
+                    </nav>
+                    <h2>Recently played</h2>
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/metal_lifting.jpg" alt="Metal playlist image cover">
+                                <div>
+                                    <h4>Heavy Metal</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/stranger.jpeg" alt="Stranger things image cover">
+                                <div>
+                                    <h4>Stranger Things, vol.1(a Netflix Original Series Soundtrack)</h4>
+                                    <p>Kyle Dixon &
+                                        Michael Stein</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/aquietplace.jpeg" alt="Quiet place image cover">
+                                <div>
+                                    <h4>A quiet place</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/split.jpeg" alt="Split image cover">
+                                <div>
+                                    <h4>Split</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/cure.jpeg" alt="Cure wellness image cover">
+                                <div>
+                                    <h4>A cure wellness</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister image cover">
+                                <div>
+                                    <h4>Sinister</h4>
+                                    <p>Subtitle</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Creato per Jonh Doe</h2>
+                    <p>
+                        Più ascolti, più accurati saranno i
+                        suggerimenti.
+                    </p>
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/radar.jpeg" alt=" Release radar image cover">
+                                <div>
+                                    <h4>Release Radar</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="./img/mixdaily.jpeg" alt=" Daily mix image cover">
+                                <div>
+                                    <h4>Daily mix 1</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Artisti più popolari</h2>
+                    <p>
+                        Più ascolti, più accurati
+                        saranno i suggerimenti.
+                    </p>
+                    <div class="row">
+
+                        <div class="col">
+                            <div class="card">
+                                <img class="b-radius" src="./img/youg.jpeg" alt="youg image cover">
+                                <div>
+                                    <h4>Lana del Rey
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img class="b-radius" src="./img/einaudi.jpeg" alt="Ludovico Einaudi image">
+                                <div>
+                                    <h4>Ludovico
+                                        Einauidi
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </section>
