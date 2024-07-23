@@ -22,14 +22,22 @@
 
 <body>
 
-
+    <!-- Main text -->
     <div class="flex-wrapper">
         <main>
+            <!-- Side Navbar -->
             <aside id="Menu-Navbar" class="p-10 bg-black">
+                <!--Top Nav links -->
                 <div id="Primary-Menu-Navbar" class="">
                     <ul>
-                        <li><a href="#"><img class="mb-15 lg-logo" src="./img/logo-small.svg" alt=""><span
-                                    class="d-none"><img src="./img/logo.svg" alt=""></span></a></li>
+                        <li>
+                            <a href="#">
+                                <div class="logo-container">
+                                    <img class="mb-15 logo" src="./img/logo-small.svg" alt="">
+                                    <img class="d-none lg-logo" src="./img/logo.svg" alt="">
+                                </div>
+                            </a>
+                        </li>
                         <li><a href="#"><img src="./img/home.svg" alt=""></a><span
                                 class="d-none"><strong>Home</strong></span></li>
                         <li><a href="#"></a><img src="./img/search.svg" alt=""><span class="d-none">Cerca</span></li>
@@ -39,7 +47,7 @@
                             <h4>Playlist</h4>
                             <div class="new-playlist"></div>
                             <span>Crea Playlist</span>
-                            <ul>
+                            <ul class="playlist-name">
                                 <li>Nome Playlist</li>
                                 <li>Nome Playlist</li>
                                 <li>Nome Playlist</li>
@@ -51,21 +59,25 @@
                         </li>
                     </ul>
                 </div>
+                <!--Bottom Nav Links -->
                 <div id="Settings-Menu-Navbar" class="">
                     <ul>
                         <li class="mb-25"><a href="#"><img class="m-2 mr-4" src="./img/download.svg" alt=""><span
-                                    class="d-none">Installa app</span> </a></li>
-                        <hr class="d-none">
+                                    class="d-none download">Installa app</span> </a></li>
+                        <div class="d-none border"></div>
                         <li><a href="#"><img class="user-img" src="./img/profile.svg" alt=""></a>
                             <h5 class="d-none">Jonh Doe</h5>
                         </li>
                     </ul>
                 </div>
             </aside>
-            <section class=" container ">
+
+            <section>
+                <!-- Subscription btn -->
                 <header id="Subscription">
                     <button class="btn" type="button">EFFETTUA L'UPGRADE</button>
                 </header>
+                <!-- Section Navbar -->
                 <div class="wrapper1">
                     <nav id="Categories-Navbar">
                         <ul class="categories">
@@ -77,6 +89,7 @@
                             <li>SCOPRI</li>
                         </ul>
                     </nav>
+                    <!-- Recently listened to songs -->
                     <h2>Recently played</h2>
                     <div class="row">
 
@@ -141,7 +154,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- Made for you -->
                     <h2>Creato per Jonh Doe</h2>
                     <p>
                         Più ascolti, più accurati saranno i
@@ -167,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- Most populars artist -->
                     <h2>Artisti più popolari</h2>
                     <p>
                         Più ascolti, più accurati
@@ -200,22 +213,25 @@
 
             </section>
         </main>
+        <!-- Music Player -->
         <footer class="bg-lightblack">
             <div class="wrapper">
-                <div class=" musica riproduzione">
-                    <img class=" d-inl-b" src="./img/sinister.jpeg" alt="Sinister image cover">
+                <div class="Playback-music">
+                    <div class="music-img-container">
+                        <img src="./img/sinister.jpeg" alt="Sinister image cover">
+                    </div>
                     <div>
                         <h5>sinister</h5>
                         <span class="brano">Brano</span><br>
                         <span>Nome</span>
                     </div>
-                    <div class="d-inl-b">
+                    <div>
                         <button type="button"><i class="fa-regular fa-heart"></i></button><br>
                         <button type="button"><i class="fa-regular fa-folder"></i></button>
                     </div>
                 </div>
 
-                <div class="musica">
+                <div class="musicplayer-btn">
                     <button type="button"><i class="fa-solid fa-shuffle"></i></button>
                     <button type="button"><i class="fa-solid fa-backward-step"></i></button>
                     <button type="button"><i class="fa-regular fa-circle-play"></i></button>
