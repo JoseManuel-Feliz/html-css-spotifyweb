@@ -23,12 +23,12 @@
 <body>
 
     <!-- Main text -->
-    <div class="flex-wrapper">
-        <main>
+    <div class="wrapper">
+        <main class="flex">
             <!-- Side Navbar -->
-            <aside id="Menu-Navbar" class="p-10 bg-black">
+            <aside id="Menu-Navbar" class="p-10 bg-black flex flex-sh0">
                 <!--Top Nav links -->
-                <div id="Primary-Menu-Navbar" class="">
+                <div id="Primary-Menu" class="">
                     <ul>
                         <li>
                             <a href="#">
@@ -43,11 +43,14 @@
                         <li><a href="#"></a><img src="./img/search.svg" alt=""><span class="d-none">Cerca</span></li>
                         <li><a href="#"><img src="./img/libreria.svg" alt=""><span class="d-none">La Tua
                                     Libreria</span></a></li>
-                        <li class="d-none">
-                            <h4>Playlist</h4>
-                            <div class="new-playlist"></div>
-                            <span>Crea Playlist</span>
-                            <ul class="playlist-name">
+                    </ul>
+
+                    <div class="d-none ">
+                        <h4>Playlist</h4>
+                        <div class="new-playlist"></div>
+                        <span>Crea Playlist</span>
+                        <div>
+                            <ul class="playlist-names">
                                 <li>Nome Playlist</li>
                                 <li>Nome Playlist</li>
                                 <li>Nome Playlist</li>
@@ -56,11 +59,12 @@
                                 <li>Nome Playlist</li>
                                 <li>Nome Playlist</li>
                             </ul>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
+
                 </div>
                 <!--Bottom Nav Links -->
-                <div id="Settings-Menu-Navbar" class="">
+                <div id="User-Profile" class="">
                     <ul>
                         <li class="mb-25"><a href="#"><img class="m-2 mr-4" src="./img/download.svg" alt=""><span
                                     class="d-none download">Installa app</span> </a></li>
@@ -72,7 +76,7 @@
                 </div>
             </aside>
 
-            <section>
+            <section class="flex-gr1">
                 <!-- Subscription btn -->
                 <header id="Subscription">
                     <button class="btn" type="button">EFFETTUA L'UPGRADE</button>
@@ -80,7 +84,7 @@
                 <!-- Section Navbar -->
                 <div class="wrapper1">
                     <nav id="Categories-Navbar">
-                        <ul class="categories">
+                        <ul class="categories flex">
                             <li>IN EVIDENZA</li>
                             <li>PODCAST</li>
                             <li>CLASSIFICHE</li>
@@ -91,7 +95,7 @@
                     </nav>
                     <!-- Recently listened to songs -->
                     <h2>Recently played</h2>
-                    <div class="row">
+                    <div class="row flex">
 
                         <div class="col">
                             <div class="card">
@@ -160,7 +164,7 @@
                         Più ascolti, più accurati saranno i
                         suggerimenti.
                     </p>
-                    <div class="row">
+                    <div class="row flex">
 
                         <div class="col">
                             <div class="card">
@@ -186,7 +190,7 @@
                         Più ascolti, più accurati
                         saranno i suggerimenti.
                     </p>
-                    <div class="row">
+                    <div class="row flex">
 
                         <div class="col">
                             <div class="card">
@@ -215,8 +219,8 @@
         </main>
         <!-- Music Player -->
         <footer class="bg-lightblack">
-            <div class="wrapper">
-                <div class="Playback-music">
+            <div class="flex-wrapper">
+                <div class="Playback-music flex">
                     <div class="music-img-container">
                         <img src="./img/sinister.jpeg" alt="Sinister image cover">
                     </div>
