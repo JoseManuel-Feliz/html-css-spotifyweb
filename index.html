@@ -28,38 +28,52 @@
             <!-- Side Navbar -->
             <aside id="Menu-Navbar" class="p-10 bg-black flex flex-sh0">
                 <!--Top Nav links -->
+
                 <div id="Primary-Menu" class="">
+                    <div class="logo-container">
+                        <a href="#">
+                            <img class="mb-15 logo" src="./img/logo-small.svg" alt="">
+                            <img class="d-none lg-logo" src="./img/logo.svg" alt="">
+                        </a>
+                    </div>
                     <ul>
                         <li>
                             <a href="#">
-                                <div class="logo-container">
-                                    <img class="mb-15 logo" src="./img/logo-small.svg" alt="">
-                                    <img class="d-none lg-logo" src="./img/logo.svg" alt="">
-                                </div>
+                                <img src="./img/home.svg" alt="">
+                                <span class="d-none"><strong>Home</strong></span>
                             </a>
                         </li>
-                        <li><a href="#"><img src="./img/home.svg" alt=""></a><span
-                                class="d-none"><strong>Home</strong></span></li>
-                        <li><a href="#"></a><img src="./img/search.svg" alt=""><span class="d-none">Cerca</span></li>
-                        <li><a href="#"><img src="./img/libreria.svg" alt=""><span class="d-none">La Tua
-                                    Libreria</span></a></li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/search.svg" alt="">
+                                <span class="d-none">Cerca</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <img src="./img/libreria.svg" alt="">
+                                <span class="d-none">La Tua
+                                    Libreria</span>
+                            </a>
+                        </li>
                     </ul>
 
                     <div class="d-none ">
                         <h4>Playlist</h4>
-                        <div class="new-playlist"></div>
-                        <span>Crea Playlist</span>
-                        <div>
-                            <ul class="playlist-names">
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                                <li>Nome Playlist</li>
-                            </ul>
-                        </div>
+                        <button class="new-playlist" type="button">+</button>
+                        <div><a href="#">Crea Playlist</a></div>
+
+                        <ul class="playlist-names">
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+
                     </div>
 
                 </div>
@@ -82,7 +96,7 @@
                     <button class="btn" type="button">EFFETTUA L'UPGRADE</button>
                 </header>
                 <!-- Section Navbar -->
-                <div class="wrapper1">
+                <div class="container m-15">
                     <nav id="Categories-Navbar">
                         <ul class="categories flex">
                             <li>IN EVIDENZA</li>
@@ -219,7 +233,7 @@
         </main>
         <!-- Music Player -->
         <footer class="bg-lightblack">
-            <div class="flex-wrapper">
+            <div class="flex-wrapper h-100">
                 <div class="Playback-music flex">
                     <div class="music-img-container">
                         <img src="./img/sinister.jpeg" alt="Sinister image cover">
@@ -229,10 +243,10 @@
                         <span class="brano">Brano</span><br>
                         <span>Nome</span>
                     </div>
-                    <div>
-                        <button type="button"><i class="fa-regular fa-heart"></i></button><br>
-                        <button type="button"><i class="fa-regular fa-folder"></i></button>
-                    </div>
+                </div>
+                <div>
+                    <button type="button"><i class="fa-regular fa-heart"></i></button><br>
+                    <button type="button"><i class="fa-regular fa-folder"></i></button>
                 </div>
 
                 <div class="musicplayer-btn">

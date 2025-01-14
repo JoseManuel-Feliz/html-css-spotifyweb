@@ -44,7 +44,9 @@
 }
 
 /* Sizes */
-
+.h-100 {
+    height: 100%;
+}
 
 /* Spacing */
 .p-10 {
@@ -53,6 +55,10 @@
 
 .p-35 {
     padding: 35px;
+}
+
+.m-15 {
+    margin: 15px;
 }
 
 .mb-15 {
